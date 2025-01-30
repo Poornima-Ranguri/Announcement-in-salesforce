@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <button
+      style="
+        color: black;
+        border: none;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        padding: 10px;
+      "
+    >
+      <a
+        style="text-decoration: none; color: black; font-weight: bold"
+        href="https://ven05422.service-now.com/now/nav/ui/home?aptyref=WF-*64tTLvST&autopilot=true"
+        target="_blank"
+        >Start Service now Flow</a
+      >
+    </button>
+
+    <button
+      style="
+        color: black;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: transparent;
+      "
+    >
+      <a
+        style="
+          background-image: linear-gradient(358deg, #ff7725, #fc52b3);
+          border-radius: 999px;
+          padding: 12px 30px;
+          cursor: pointer;
+          text-decoration: none;
+          color: white;
+          font-weight: bold;
+        "
+        href="https://dq0000000cl6yeas--demo.sandbox.lightning.force.com/lightning/o/Opportunity/list?aptyref=WF-2W7uCakM5W"
+        target="_blank"
+      >
+        Let's Start quick onboarding
+      </a>
+    </button> -->
+    <!-- sending video to background -->
+    <!-- <div>
+      <video
+        autoplay
+        loop
+        src="./assets/Bluish White with Side Light Streaks Free Background Videos, No Copyright _ All Background Videos.mp4"
+      ></video>
+      <div style="text-align: center">
+        <h1>
+          🚀 Exciting Update! 🚀 Not sure which opportunity template to use? No
+          worries! 🎯 Simply select the one <br />
+          that best fits your needs, and you're good to go!
+        </h1>
+        <p>
+          🔹 New here? Click below <br />
+          <button
+            style="
+              color: black;
+              border: none;
+              border-radius: 10px;
+              padding: 10px;
+              background-color: transparent;
+              margin: 10px;
+            "
+            data-mce-style="color: black; border: none; border-radius: 10px; padding: 10px; background-color: transparent;"
+          >
+            <a
+              style="
+                background-image: linear-gradient(
+                  350deg,
+                  rgb(234, 146, 209),
+                  rgba(38, 254, 236, 0.41)
+                );
+                border-radius: 9px;
+                padding: 12px 30px;
+                cursor: pointer;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+              "
+              href="https://dq0000000cl6yeas--demo.sandbox.lightning.force.com/lightning/o/Opportunity/list?aptyref=WF-2W7uCakM5W"
+              target="_blank"
+              rel="noopener"
+              data-mce-href="https://dq0000000cl6yeas--demo.sandbox.lightning.force.com/lightning/o/Opportunity/list?aptyref=WF-2W7uCakM5W"
+              data-mce-style="background-image: linear-gradient(358deg, #ff7725, #fc52b3); border-radius: 999px; padding: 12px 30px; cursor: pointer; text-decoration: none; color: white; font-weight: bold;"
+            >
+              Let's Start quick onboarding
+            </a></button
+          ><br />To kickstart your Journey and get up to speed effortlessly!
+          🚀✨
+        </p>
+      </div>
+    </div> -->
+    <div
+      style="
+        position: relative;
+        width: 542px;
+        height: 270px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+      "
+    >
+      <video
+        autoplay
+        loop
+        muted
+        id="background-video"
+        style="
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          z-index: -1;
+        "
+      ></video>
+      <div
+        style="text-align: center; position: relative; z-index: 1; color: black"
+      >
+        <h1 style="font-size: 13px">
+          🚀 Exciting Update! 🚀 Not sure which opportunity template to use? No
+          worries! 🎯 Simply select the one <br />
+          that best fits your needs, and you're good to go!
+        </h1>
+        <p style="font-size: 11px">
+          🔹 New here? Click below <br />
+          <button
+            style="
+              color: black;
+              border: none;
+              border-radius: 10px;
+              padding: 6px;
+              background-color: transparent;
+              margin: 6px;
+            "
+          >
+            <a
+              style="
+                background-image: linear-gradient(
+                  350deg,
+                  rgb(234, 146, 209),
+                  rgba(138, 188, 29, 0.41),
+                  rgb(234, 146, 209)
+                );
+                border-radius: 9px;
+                padding: 10px;
+                cursor: pointer;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+              "
+              href="https://dq0000000cl6yeas--demo.sandbox.lightning.force.com/lightning/o/Opportunity/list?aptyref=WF-2W7uCakM5W"
+              target="_blank"
+              rel="noopener"
+            >
+              Let's Start quick onboarding
+            </a>
+          </button>
+          <br />To kickstart your Journey and get up to speed effortlessly! 🚀✨
+        </p>
+      </div>
+    </div>
+
+    <!-- <iframe
+      src="https://poornima-ranguri.github.io/Announcement-in-salesforce"
+      frameborder="0"
+      style="border: none; overflow: hidden"
+    ></iframe> -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const videoSources = [
+          "./assets/illusion.mp4",
+          "./assets/snow.mp4",
+          "./assets/abstract.mp4",
+        ];
+
+        const randomVideo =
+          videoSources[Math.floor(Math.random() * videoSources.length)];
+
+        document.getElementById("background-video").src = randomVideo;
+      });
+    </script>
+  </body>
+</html>
